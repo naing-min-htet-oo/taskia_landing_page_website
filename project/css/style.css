@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+:root{
+    --primary:#525FFB;
+    --lightblue:#E9F0FF;
+    --lightorange:#FFE7AA;
+    --primaryfont:'Poppins', sans-serif;
+}
+.bg-lightblue{
+    background-color: var(--lightblue);
+}
+.bg-lightorange{
+    background-color: var(--lightorange);
+}
+*{
+    font-family: var(--primaryfont);
+}
+.main-container{
+    min-height: 100vh;
+    background-image: url("../images/bg.png") ,url("../images/bg-2@4x.png");
+    background-size: 50% 100vh , 35% 150vh;
+    background-repeat: no-repeat;
+    background-position: top right, left bottom;
+}
+.main-container2{
+    min-height: 100vh;
+    background-image: url("../images/bg3@4x.png");
+    background-size: 40% 130vh ;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+.fst-content{
+    overflow: visible;
+}
+.trd-content{
+    min-height: 80vh;
+}
+.trd-content-img{
+    width: 350px;
+}
+.trd-content-item{
+    width: 60%;
+}
+
+.fth-content{
+    min-height: 80vh;
+}
+.fth-content-img{
+    width: 450px;
+}
+
+.service-list .card{
+    border-radius: 15px !important;
+}
+
+.app-ico img.apple{
+    width: 30px;
+}
+.app-ico img.playstore{
+    width: 70px;
+}
+
+.count-box{
+   min-height: 50vh;
+}
+.count-box{
+    position: relative;
+}
+.pro-img{
+    position: absolute;
+}
+.profile-img1{
+    width: 70px;
+    top: 30px;
+    left: 60px;
+}
+.profile-img2{
+    width: 50px;
+    bottom: 30px;
+    left: 100px;
+}
+.profile-img3{
+    width: 60px;
+    bottom: 30px;
+    right: 100px;
+}
+.profile-img4{
+    width: 40px;
+    top: 150px;
+    left: 260px;
+}
+.profile-img5{
+    width: 60px;
+    top: 10px;
+    right: 60px;
+}
+.profile-img6{
+    width: 35px;
+    top: 65px;
+    right: 260px;
+}
+.count-no{
+    letter-spacing: 5px;
+}
+.lst-content{
+    min-height: 50vh;
+}
+.ani-delay-1{
+    animation-delay: 0.5s;
+}
+.ani-delay-2{
+    animation-delay: 1s;
+}
+.ani-delay-3{
+    animation-delay: 1.5s;
+}
+.ani-delay-4{
+    animation-delay: 2s;
+}
+.ani-delay-5{
+    animation-delay: 2.5s;
+}
+.ani-delay-01{
+    animation-delay: 0.3s;
+}
+.ani-delay-02{
+    animation-delay: 0.6s;
+}
+.ani-delay-03{
+    animation-delay: 1.2s;
+}
+.ani-delay-04{
+    animation-delay: 1.5s;
+}
+.ani-delay-05{
+    animation-delay: 1.8s;
+}
+.ani-delay-06{
+    animation-delay: 2s;
+}
+@media screen and (max-width: 991px){
+    .main-content-img{
+        width: 400px;
+    }
+    .main-content-text{
+        width: 50% !important;
+    }
+
+    .main-container{
+        background-size: 40% 80vh , 35% 150vh;
+    }
+    .profile-img1{
+        top: 30px;
+        left: 60px;
+    }
+    .profile-img2{
+        bottom: 30px;
+        left: 100px;
+    }
+    .profile-img3{
+        bottom: 30px;
+        right: 100px;
+    }
+    .profile-img4{
+        top: 150px;
+        left: 140px;
+    }
+    .profile-img5{
+        top: 10px;
+        right: 60px;
+    }
+    .profile-img6{
+        top: 70px;
+        right: 200px;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    .main-content-img{
+        width: 300px;
+    }
+    .main-content-text{
+        width: 60% !important;
+    }
+
+    .main-container{
+        background-size: 80% 80vh , 70% 100vh;
+    }
+    .trd-content-img,.trd-content-item{
+        width: 80%;
+    }
+    .fth-content-img{
+        width: 80%;
+    }
+    .profile-img1{
+        top: 30px;
+        left: 0px;
+    }
+    .profile-img2{
+        bottom: 30px;
+        left: 50px;
+    }
+    .profile-img3{
+        bottom: 30px;
+        right: 40px;
+    }
+    .profile-img4{
+        top: 140px;
+        left: 80px;
+    }
+    .profile-img5{
+        top: 10px;
+        right: 60px;
+    }
+    .profile-img6{
+        top: 200px;
+        right: 200px;
+    }
+}
+
+@media screen and (max-width: 575px){
+    .main-content-img{
+        width: 300px;
+    }
+    .main-content-text{
+        width: 100% !important;
+    }
+
+    .main-container{
+        background-size: 50% 50vh , 50% 100vh;
+    }
+    .main-container2{
+        background-size: 50% 70vh ;
+
+    }
+    
+    .profile-img1{
+    width: 50px;
+        top: 30px;
+        left: 0px;
+    }
+    .profile-img2{
+    width: 30px;
+        bottom: 30px;
+        left: 50px;
+    }
+    .profile-img3{
+    width: 40px;
+        bottom: 30px;
+        right: 40px;
+    }
+    .profile-img4{
+        width: 20px;
+        top: 80px;
+        left: 100px;
+    }
+    .profile-img5{
+        width: 40px;
+        top: 10px;
+        right: 60px;
+    }
+    .profile-img6{
+        width: 25px;
+        top: 200px;
+        right: 200px;
+    }
+    .count-no{
+        font-size: 50px !important;
+    }
+}
